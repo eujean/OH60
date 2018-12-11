@@ -1,0 +1,4 @@
+[submodule "Keyboard.pretty"]
+	path = pcb/lib/Keyboard.pretty
+	url = https://github.com/stormbard/Keyboard.pretty.git
+

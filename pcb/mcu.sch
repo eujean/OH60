@@ -64,10 +64,10 @@ F 3 "" H 4300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Device:C C7
 U 1 1 5C126503
 P 3500 2200
-F 0 "C5" V 3248 2200 50  0000 C CNN
+F 0 "C7" V 3248 2200 50  0000 C CNN
 F 1 "22pF" V 3339 2200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 2050 50  0001 C CNN
 F 3 "~" H 3500 2200 50  0001 C CNN
@@ -75,10 +75,10 @@ F 3 "~" H 3500 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C6
+L Device:C C8
 U 1 1 5C126598
 P 3500 2700
-F 0 "C6" V 3248 2700 50  0000 C CNN
+F 0 "C8" V 3248 2700 50  0000 C CNN
 F 1 "22pF" V 3339 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 2550 50  0001 C CNN
 F 3 "~" H 3500 2700 50  0001 C CNN
@@ -278,8 +278,6 @@ F 3 "~" H 7100 1100 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	7500 600  7500 1600
-Wire Notes Line
-	9000 1600 9000 600 
 Wire Wire Line
 	7800 900  7100 900 
 Wire Wire Line
@@ -292,10 +290,6 @@ Wire Wire Line
 Connection ~ 7800 1300
 Wire Notes Line
 	6600 1600 6600 600 
-Wire Notes Line
-	6600 1600 9000 1600
-Wire Notes Line
-	6600 600  9000 600 
 Text Notes 6650 900  0    50   ~ 0
 Tantalum\nFor AVCC
 Wire Wire Line
@@ -328,10 +322,10 @@ Wire Wire Line
 Wire Wire Line
 	4350 2750 4350 3050
 $Comp
-L Device:C C7
+L Device:C C9
 U 1 1 5C138440
 P 4350 3200
-F 0 "C7" H 4465 3246 50  0000 L CNN
+F 0 "C9" H 4465 3246 50  0000 L CNN
 F 1 "100n" H 4465 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4388 3050 50  0001 C CNN
 F 3 "~" H 4350 3200 50  0001 C CNN
@@ -352,10 +346,10 @@ $EndComp
 Wire Wire Line
 	4350 3350 4350 3400
 $Comp
-L Device:C C8
+L Device:C C10
 U 1 1 5C1392CE
 P 5050 3700
-F 0 "C8" H 5165 3746 50  0000 L CNN
+F 0 "C10" H 5165 3746 50  0000 L CNN
 F 1 "1uF" H 5165 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5088 3550 50  0001 C CNN
 F 3 "~" H 5050 3700 50  0001 C CNN
@@ -541,10 +535,10 @@ F 3 "" H 2450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C12
 U 1 1 5C14F569
 P 1200 5400
-F 0 "C10" H 1315 5446 50  0000 L CNN
+F 0 "C12" H 1315 5446 50  0000 L CNN
 F 1 "22uF" H 1315 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1238 5250 50  0001 C CNN
 F 3 "~" H 1200 5400 50  0001 C CNN
@@ -587,10 +581,10 @@ Wire Wire Line
 	2250 5100 2450 5100
 Connection ~ 2250 5200
 $Comp
-L Device:C C9
+L Device:C C11
 U 1 1 5C15D973
 P 3200 4850
-F 0 "C9" H 3315 4896 50  0000 L CNN
+F 0 "C11" H 3315 4896 50  0000 L CNN
 F 1 "100n" H 3315 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 4700 50  0001 C CNN
 F 3 "~" H 3200 4850 50  0001 C CNN
@@ -702,19 +696,9 @@ Text Label 6700 2450 0    50   ~ 0
 MISO
 Text Label 5350 2150 2    50   ~ 0
 RESET
-Text HLabel 6650 2150 2    50   Input ~ 0
-COL_0
-Text HLabel 6650 2550 2    50   Input ~ 0
-COL_1
-Text HLabel 6650 2650 2    50   Input ~ 0
-COL_2
-Text HLabel 6650 2750 2    50   Input ~ 0
-COL_3
-Text HLabel 6650 2850 2    50   Input ~ 0
-COL_4
-Text HLabel 6650 3050 2    50   Input ~ 0
+Text HLabel 6650 4350 2    50   Input ~ 0
 COL_5
-Text HLabel 6650 3150 2    50   Input ~ 0
+Text HLabel 6650 2150 2    50   Input ~ 0
 COL_6
 Text HLabel 6650 3350 2    50   Input ~ 0
 COL_7
@@ -728,18 +712,8 @@ Text HLabel 6650 3750 2    50   Input ~ 0
 COL_11
 Text HLabel 6650 3850 2    50   Input ~ 0
 COL_12
-Text HLabel 6650 3950 2    50   Input ~ 0
+Text HLabel 6650 3150 2    50   Input ~ 0
 COL_13
-Text HLabel 6650 4550 2    50   Input ~ 0
-ROW_0
-Text HLabel 6650 4650 2    50   Input ~ 0
-ROW_1
-Text HLabel 6650 4750 2    50   Input ~ 0
-ROW_2
-Text HLabel 6650 4850 2    50   Input ~ 0
-ROW_3
-Text HLabel 6650 4950 2    50   Input ~ 0
-ROW_4
 Wire Wire Line
 	8000 1300 8200 1300
 Wire Wire Line
@@ -768,7 +742,6 @@ Wire Wire Line
 	8650 1300 8200 1300
 Connection ~ 8200 1300
 NoConn ~ 6650 4250
-NoConn ~ 6650 4350
 NoConn ~ 6650 5050
 $Comp
 L power:PWR_FLAG #FLG01
@@ -797,4 +770,77 @@ Wire Wire Line
 	2200 6500 2200 6600
 Wire Wire Line
 	2200 6600 1850 6600
+Text Label 2450 5650 0    50   ~ 0
+PRE_D+
+Text Label 2450 5950 0    50   ~ 0
+PRE_D-
+$Comp
+L Device:C C5
+U 1 1 5C14A7FF
+P 9050 1100
+F 0 "C5" H 9165 1146 50  0000 L CNN
+F 1 "100n" H 9165 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9088 950 50  0001 C CNN
+F 3 "~" H 9050 1100 50  0001 C CNN
+	1    9050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 900  9050 900 
+Wire Wire Line
+	9050 900  9050 950 
+Connection ~ 8650 900 
+Wire Wire Line
+	9050 1250 9050 1300
+Wire Wire Line
+	9050 1300 8650 1300
+Connection ~ 8650 1300
+$Comp
+L Device:C C6
+U 1 1 5C1577FD
+P 9450 1100
+F 0 "C6" H 9565 1146 50  0000 L CNN
+F 1 "100n" H 9565 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 950 50  0001 C CNN
+F 3 "~" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 900  9450 900 
+Wire Wire Line
+	9450 900  9450 950 
+Connection ~ 9050 900 
+Wire Wire Line
+	9450 1250 9450 1300
+Wire Wire Line
+	9450 1300 9050 1300
+Connection ~ 9050 1300
+Wire Notes Line
+	9850 600  9850 1600
+Wire Notes Line
+	6600 1600 9850 1600
+Wire Notes Line
+	6600 600  9850 600 
+Text HLabel 6650 4950 2    50   Input ~ 0
+COL_0
+Text HLabel 6650 4850 2    50   Input ~ 0
+COL_1
+Text HLabel 6650 4750 2    50   Input ~ 0
+COL_2
+Text HLabel 6650 4650 2    50   Input ~ 0
+COL_3
+Text HLabel 6650 4550 2    50   Input ~ 0
+COL_4
+Text HLabel 6650 3950 2    50   Input ~ 0
+ROW_0
+Text HLabel 6650 2550 2    50   Input ~ 0
+ROW_1
+Text HLabel 6650 2650 2    50   Input ~ 0
+ROW_2
+Text HLabel 6650 2750 2    50   Input ~ 0
+ROW_3
+Text HLabel 6650 2850 2    50   Input ~ 0
+ROW_4
+NoConn ~ 6650 3050
 $EndSCHEMATC

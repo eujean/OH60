@@ -700,17 +700,17 @@ Text HLabel 6650 4350 2    50   Input ~ 0
 COL_5
 Text HLabel 6650 2150 2    50   Input ~ 0
 COL_6
-Text HLabel 6650 3350 2    50   Input ~ 0
-COL_7
 Text HLabel 6650 3450 2    50   Input ~ 0
-COL_8
+COL_7
 Text HLabel 6650 3550 2    50   Input ~ 0
+COL_8
+Text HLabel 6650 2550 2    50   Input ~ 0
 COL_9
-Text HLabel 6650 3650 2    50   Input ~ 0
+Text HLabel 6650 2650 2    50   Input ~ 0
 COL_10
-Text HLabel 6650 3750 2    50   Input ~ 0
+Text HLabel 6650 2750 2    50   Input ~ 0
 COL_11
-Text HLabel 6650 3850 2    50   Input ~ 0
+Text HLabel 6650 3050 2    50   Input ~ 0
 COL_12
 Text HLabel 6650 3150 2    50   Input ~ 0
 COL_13
@@ -832,15 +832,15 @@ Text HLabel 6650 4650 2    50   Input ~ 0
 COL_3
 Text HLabel 6650 4550 2    50   Input ~ 0
 COL_4
-Text HLabel 6650 3950 2    50   Input ~ 0
+Text HLabel 6650 3650 2    50   Input ~ 0
 ROW_0
-Text HLabel 6650 2550 2    50   Input ~ 0
+Text HLabel 6650 3850 2    50   Input ~ 0
 ROW_1
-Text HLabel 6650 2650 2    50   Input ~ 0
+Text HLabel 6650 3750 2    50   Input ~ 0
 ROW_2
-Text HLabel 6650 2750 2    50   Input ~ 0
+Text HLabel 6650 3950 2    50   Input ~ 0
 ROW_3
-Text HLabel 6650 2850 2    50   Input ~ 0
+Text HLabel 6650 4050 2    50   Input ~ 0
 ROW_4
-NoConn ~ 6650 3050
+NoConn ~ 6650 3350
 $EndSCHEMATC

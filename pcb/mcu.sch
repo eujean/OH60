@@ -265,17 +265,6 @@ F 3 "" H 6050 1650 50  0001 C CNN
 $EndComp
 Text Notes 8200 850  0    50   ~ 0
 General Decoupling.\nClose to MCU
-$Comp
-L Device:C C1
-U 1 1 5C13070F
-P 7100 1100
-F 0 "C1" H 7215 1146 50  0000 L CNN
-F 1 "1uF" H 7215 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7138 950 50  0001 C CNN
-F 3 "~" H 7100 1100 50  0001 C CNN
-	1    7100 1100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	7500 600  7500 1600
 Wire Wire Line
@@ -345,17 +334,6 @@ F 3 "" H 4350 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 3350 4350 3400
-$Comp
-L Device:C C10
-U 1 1 5C1392CE
-P 5050 3700
-F 0 "C10" H 5165 3746 50  0000 L CNN
-F 1 "1uF" H 5165 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5088 3550 50  0001 C CNN
-F 3 "~" H 5050 3700 50  0001 C CNN
-	1    5050 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 3450 5050 3450
 Wire Wire Line
@@ -843,4 +821,26 @@ ROW_3
 Text HLabel 6650 4050 2    50   Input ~ 0
 ROW_4
 NoConn ~ 6650 3350
+$Comp
+L Device:CP C1
+U 1 1 5C2351E5
+P 7100 1100
+F 0 "C1" H 7218 1146 50  0000 L CNN
+F 1 "1u" H 7218 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7138 950 50  0001 C CNN
+F 3 "~" H 7100 1100 50  0001 C CNN
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C10
+U 1 1 5C24901F
+P 5050 3700
+F 0 "C10" H 5168 3746 50  0000 L CNN
+F 1 "1u" H 5168 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5088 3550 50  0001 C CNN
+F 3 "~" H 5050 3700 50  0001 C CNN
+	1    5050 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
